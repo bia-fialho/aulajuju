@@ -49,12 +49,10 @@ const precosBebida = {
     "Água": 10
 };
 
-// DOCE
 document.getElementById("doce").addEventListener("change", function () {
     document.getElementById("preco").value = precos[this.value] || "";
 });
 
-// BEBIDA
 document.getElementById("bebida").addEventListener("change", function () {
     document.getElementById("precoBebida").value = precosBebida[this.value] || "";
 });
@@ -76,7 +74,6 @@ function adicionarPedido() {
 
         atualizarLista();
 
-        // limpar
         document.getElementById("cliente").value = "";
         document.getElementById("telefone").value = "";
         document.getElementById("doce").value = "";
