@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+h2{
+    color: #3fb3a5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #c7ded9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  width: 700px;
+  background: #cfe4df;
+  border: 3px solid #3fb3a5;
+  padding: 20px;
+}
+
+header {
+  background: #3fb3a5;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.form-section h2 {
+  color: #2b9aa0;
+  margin-bottom: 10px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-section input,
+.form-section select {
+  padding: 10px;
+  border: 1px solid #8fbdb7;
+  background: #dff1ed;
+  outline: none;
+}
+
+.form-section input[type="text"],
+.form-section input[type="tel"],
+.form-section select,
+.form-section input[type="number"] {
+  width: 100%;
+}
+
+button {
+  background: #3fb3a5;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2b9aa0;
+}
+
+.lista-section {
+  margin-top: 20px;
+  color: white;
+}
+
+.lista-section h2 {
+  color: #2b9aa0;
+}
+
+#listaPedidos {
+  list-style: none;
+  padding: 0;
+  color: white;
+}
+
+#listaPedidos li {
+  background: #40b69b;
+  border: 1px solid #8fbdb7;
+  padding: 15px;
+  margin-bottom: 10px;
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#totalPedidos {
+  text-align: center;
+  margin-top: 15px;
+  color: #2ba092;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:22px;
+}
+
+.lista-section button,
+button:last-of-type {
+  display: block;
+  margin: 20px auto 0;
+  width: 60%;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #40b69b;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
